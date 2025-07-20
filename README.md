@@ -4,7 +4,7 @@
 
 一个实现Bin文件云端上传和通过串口下载到设备的Web工具，使用Node.js + Express + Web Serial API构建。
 
-## ? 功能特性
+##  功能特性
 
 - **文件管理**
   - 浏览服务器上的bin文件列表
@@ -20,7 +20,7 @@
   - 上传页面密码保护
   - 文件类型限制(.bin only)
 
-## ?? 技术栈
+##  技术栈
 
 - **后端**
   - Node.js + Express
@@ -36,7 +36,7 @@
   - Docker容器化
   - Docker Compose编排
 
-## ? 快速开始
+##  快速开始
 
 ### 前提条件
 - Node.js 16+
@@ -70,7 +70,7 @@ node server.js
 - 主界面: `http://localhost:3000`
 - 上传界面: `http://localhost:3000/upload/upload.html` (密码:admin123)
 
-## ? 使用指南
+##  使用指南
 
 1. **文件上传**
    - 访问上传页面
@@ -85,7 +85,7 @@ node server.js
    - 点击"打开串口"
    - 点击"发送文件"
 
-## ? 项目结构
+##  项目结构
 
 ```
 bin-file-server/
