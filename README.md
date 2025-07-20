@@ -1,6 +1,6 @@
 # Bin文件传输工具
 
-![项目截图](screenshot.png) <!-- 如果有截图可以放这里 -->
+
 
 一个实现Bin文件云端上传和通过串口下载到设备的Web工具，使用Node.js + Express + Web Serial API构建。
 
@@ -91,7 +91,9 @@ bin-file-server/
 ├── Dockerfile             # Docker配置
 └── docker-compose.yml     # 容器编排
 ```
-
+## 运行截图
+![项目截图](images/screenshot.png) 
+![项目截图](images/screenshot2.png) 
 ## ? 开源协议
 
 MIT License
