@@ -1,0 +1,9 @@
+services:
+  bin-server:
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./bins:/usr/src/app/bins
+      - ./public:/usr/src/app/public
+    restart: unless-stopped
