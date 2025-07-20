@@ -43,10 +43,17 @@
 - Docker (可选)
 - 现代浏览器(Chrome/Edge 89+)
 
-### 安装运行
+### 安装依赖
 
+```bash
+# 必需的核心依赖
 npm install express cors body-parser
+
+# 文件上传需要的依赖
 npm install multer
+```
+
+### 安装运行
 
 #### 方法一：使用Docker(推荐)
 ```bash
